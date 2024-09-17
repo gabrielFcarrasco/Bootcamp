@@ -46,6 +46,7 @@ Seu saldo agora é R${saldo}
                     saldo = saldo - saque
                     numero_saques += 1
                     LIMITE_DIARIO -= 1
+                    print('Saque realizado com sucesso!')
                     extrato += f'\n Saque Realizado de R${saque} agora seu saldo é de R${saldo}'
                     if numero_saques < 2:
                         print(f'Você poderá realizar mais {3 - numero_saques} saques hoje!')
