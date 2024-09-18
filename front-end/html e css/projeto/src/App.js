@@ -40,8 +40,8 @@ const App = () => {
       setCurrentNumber('0');
       setOperation('-');
     }else{
-      const sum = Number(firstNumber) - Number(currentNumber);
-      setCurrentNumber(String(sum));
+      const sub = Number(firstNumber) - Number(currentNumber);
+      setCurrentNumber(String(sub));
       setOperation('')
     }
   }
@@ -53,8 +53,8 @@ const App = () => {
       setCurrentNumber('0');
       setOperation('/');
     }else{
-      const sum = Number(firstNumber) / Number(currentNumber);
-      setCurrentNumber(String(sum));
+      const div = Number(firstNumber) / Number(currentNumber);
+      setCurrentNumber(String(div));
       setOperation('')
     }
   }
@@ -66,8 +66,8 @@ const App = () => {
       setCurrentNumber('0');
       setOperation('*');
     }else{
-      const sum = Number(firstNumber) * Number(currentNumber);
-      setCurrentNumber(String(sum));
+      const mult = Number(firstNumber) * Number(currentNumber);
+      setCurrentNumber(String(mult));
       setOperation('')
     }
   }
